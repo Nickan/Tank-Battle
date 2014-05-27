@@ -6,16 +6,16 @@ is in the TankBattle-desktop/bin. Later on Android, as I want to play it with
 my brothers!:D
 
 Server: - Has the update (collision and entity state)
-		- Processes the clients request through MessagingSystem
-		- Currently has basic bullet collision and block destruction
-			functionality.
-		- As of now, only positions and directions of entities are sent
-			to client
+	- Processes the clients request through MessagingSystem
+	- Currently has basic bullet collision and block destruction
+		functionality.
+	- As of now, only positions and directions of entities are sent
+		to client
 			
 Client: - No real major update, just getting updates from server and minor
-			updates just to mimic or create the illusion of having its own
-			major update (like animation update)
-		- Sends request from server.
+	- Updates just to mimic or create the illusion of having its own
+	- Major update (like animation update)
+	- Sends request from server.
 		
 
 Powered by: 
